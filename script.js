@@ -9,7 +9,8 @@ function effacer() {
 function calculer() {
   try {
     let resultat = eval(document.getElementById("ecran").value);
-    document.getElementById("ecran").value = resultat;
+    let the_result = resultat
+    document.getElementById("ecran").value = the_result;
   } catch (e) {
     document.getElementById("ecran").value = "Erreur";
   }
