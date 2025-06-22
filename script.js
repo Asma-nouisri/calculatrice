@@ -1,7 +1,7 @@
 function ajouter(valeur) {
   document.getElementById("ecran").value += valeur;
 }
-
+console.log('hello asma');
 function effacer() {
   document.getElementById("ecran").value = "";
 }
